@@ -5,34 +5,34 @@ import React from 'react'
 
 const testimonials = [
   {
-    name: 'John Doe',
-    occupation: 'Software Engineer',
-    comment: 'This is a great service! It has helped me land my dream job.',
-    image: '/student.png'  // replace with actual image paths
+    name: 'Lawrence Fauntleroy',
+    occupation: 'Director of Alumni(Lehman College)',
+    comment: 'This is a great platform! incorporating alumni is the icing on the cake!',
+    image: '/lawrence.jpeg'  // replace with actual image paths
   },
   {
-    name: 'Jane Doe',
-    occupation: 'Product Manager',
-    comment: 'I love using this app! It has improved my interview skills tremendously.',
-    image: '/student.png'
+    name: 'Yolanda Rodriguez',
+    occupation: 'Associate Director of Career Services(CUNY Journalism)',
+    comment: 'A lot of students can benefit practicing interview questions.',
+    image: '/yolanda.jpg'
   },
   {
-    name: 'Alex Smith',
-    occupation: 'UX Designer',
-    comment: 'This service is a game changer! I highly recommend it.',
-    image: '/student.png'
+    name: 'Jessica Perez',
+    occupation: 'Director of Career & Professional Development(CUNY Laguardia)',
+    comment: 'Would love to see how we could use this at Laguardia.',
+    image: '/avatar.jpg'
   },
   {
-    name: 'Alice Johnson',
-    occupation: 'Data Analyst',
-    comment: 'The interview practice sets are incredibly useful. They have boosted my confidence.',
-    image: '/student.png'
+    name: 'Rokiatou Kaba',
+    occupation: 'Student',
+    comment: 'I would definitely use this platform if my school had it.',
+    image: '/rokiatou.jpeg'
   },
   {
-    name: 'Charlie Brown',
-    occupation: 'DevOps Engineer',
-    comment: 'A must-use for anyone looking to improve their interview skills. I have received so many job offers thanks to this service.',
-    image: '/student.png'
+    name: 'Jacob Smith',
+    occupation: 'Student',
+    comment: 'really looking forward to practicing, I really need the extra help.',
+    image: '/avatar.jpg'
   }
 ]
 
