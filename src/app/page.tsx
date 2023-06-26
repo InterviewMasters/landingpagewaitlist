@@ -1,7 +1,8 @@
 import EmailForm from '../app/components/EmailForm'
 import Image from 'next/image'
 import Testimonials from './components/Testimonials'
-import Link from 'next/link'
+import { useCallback } from 'react';
+
 
 
 
@@ -13,9 +14,9 @@ export default function Home() {
       <div className="min-h-screen flex flex-col items-center justify-center bg-white px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-32">
         <h1 className="text-3xl lg:text-7xl mt-8 text-blue font-extrabold text-center">InterviewMaster</h1>
         <h3 className="text-2xl text-black font-medium text-center mt-4  max-w-xl lg:max-w-3xl xl:max-w-xl">Building student interview skills with the help of <span className='font-extrabold text-coral'>AI & College Alumni</span></h3>
-        <EmailForm />
+        <EmailForm buttonText="Join Waitlist" list="waitlist" />
         <h2 className="text-2xl text-black font-bold text-center mt-8">What is <span className='text-blue'>InterviewMaster</span>?</h2>
-        <h3 className="text-xl text-black font-medium text-center mt-2 max-w-md lg:max-w-xl xl:max-w-2xl">InterviewMaster is a groundbreaking tool that harnesses the power of <span className='font-extrabold text-coral'>AI</span> and the wisdom of <span className='font-extrabold text-coral'>alumni</span> to prepare students for job interviews and creating a new way for colleges to engage and keep <span className='font-extrabold text-coral'>connections</span> with their alumni.</h3>
+        <h3 className="text-xl text-black font-medium text-center mt-2 max-w-md lg:max-w-xl xl:max-w-2xl">InterviewMaster is a groundbreaking tool that harnesses the power of <span className='font-extrabold text-coral'>AI</span> and the experience of <span className='font-extrabold text-coral'>alumni</span> to prepare students for job interviews and creating a new way for colleges to engage and keep <span className='font-extrabold text-coral'>connections</span> with their alumni.</h3>
         <div className="flex justify-center items-center w-screen h-52 bg-primary-bg mt-8">
           <p className="text-center text-white text-xl font-bold lg:text-4xl max-w-md lg:max-w-lg xl:max-w-5xl">At InterviewMaster, were not just improving interview skills; were shaping future professionals.</p>
         </div>
@@ -55,14 +56,14 @@ export default function Home() {
   </div>
 <Testimonials/>
 <div className="flex flex-col items-center justify-center text-black mb-8">
-        <h2 className="text-2xl font-medium mb-2">Are you a faculty from a college/university? and would like a demo!</h2>
+        <h2 className="text-2xl font-medium mb-2">Seeking educational innovation? As a faculty member, experience our exclusive demo today!</h2>
         <p className="text-gray-600 mb-4">Click below for demo</p>
         <a href="https://calendly.com/alhouseny/30min" target="_blank" rel="noopener noreferrer" className="bg-blue hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
           Schedule demo
         </a>
     </div>
     <div className="flex flex-col items-center justify-center text-black">
-        <h2 className="text-2xl font-medium mb-2">Are you a student who wants InterviewMaster at your school?</h2>
+        <h2 className="text-2xl font-medium mb-2">Student-driven change starts with you. Bring InterviewMaster to your school today!</h2>
         <p className="text-gray-600 mb-4">Click below to recommend us!</p>
         <a href="https://forms.gle/k7KhBCxYxQMHs8f88" target="_blank" rel="noopener noreferrer" className="bg-blue hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block">
           I want this!
@@ -70,7 +71,7 @@ export default function Home() {
     </div>
     <div className="flex flex-col items-center justify-center text-black mt-8">
         <h2 className="text-md font-medium mb-2">Sign up for our news letter to stay up to date and know when we officially launch!</h2>
-       <EmailForm/>
+        <EmailForm buttonText="Sign up" list="newsletter" />
     </div>
   <footer className='flex justify-center py-8 text-black'>@ 2023 all rights reserved.</footer>
 </div>
