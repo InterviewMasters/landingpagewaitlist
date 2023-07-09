@@ -28,7 +28,7 @@ export default function Home() {
     <div className='max-w-md lg:max-w-xl xl:max-w-2xl order-first lg:order-first'>
       <h2 className='text-xl font-semibold text-blue lg:max-w-md  lg:text-3xl mb-6'>Refined Interview Skills: Elevate Your Success</h2>
       <p className='text-black lg:max-w-xl'>
-      Our cutting-edge platform uses the power of <span className='font-extrabold text-coral'>AI</span> to offer personalized guidance that elevates your resume and refines your responses. This isnt a one-size-fits-all solution; our platform adapts to you, providing tailored strategies that emphasize your unique strengths and experiences.      </p>
+      Our cutting-edge platform uses the power of <span className='font-extrabold text-coral'>AI</span> to offer personalized guidance that elevates students resume and refines their responses. This is not a one-size-fits-all solution; our platform adapts to students, providing tailored strategies that emphasize students unique strengths and experiences.</p>
     </div>
   </div>
 

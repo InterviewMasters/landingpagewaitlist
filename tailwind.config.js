@@ -7,13 +7,13 @@ module.exports = {
   ],
   theme: {
     colors: {
-    'primary-bg': '#0B73E8',
-    'secondary-bg': '#FC9484',
+    'primary-bg': '#0091D5',
+    'secondary-bg': '#EA6A47',
     'text-secondary': '#979797',
     white: '#FFFFFF',
     black: '#000000',
-    blue: '#0B73E8',
-    coral:'#FC9484'
+    blue: '#0091D5',
+    coral:'#EA6A47'
     },
     extend: {
   
