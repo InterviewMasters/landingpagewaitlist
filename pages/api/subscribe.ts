@@ -15,8 +15,8 @@ export default async function handler(
 
       // You need to replace 'your-audience-id' with your actual audience ID
       // and 'your-api-key' with your actual Mailchimp API key.
-      const MAILCHIMP_API_KEY = process.env.MAILCHIMP_API_KEY;
-      const MAILCHIMP_AUDIENCE_ID = list === 'waitlist' ? process.env.MAILCHIMP_WAITLIST_ID : process.env.MAILCHIMP_NEWSLETTER_ID;
+      const MAILCHIMP_API_KEY = process.env.NEXT_PUBLIC_MAILCHIMP_API_KEY;
+      const MAILCHIMP_AUDIENCE_ID = list === 'waitlist' ? process.env.NEXT_PUBLIC_MAILCHIMP_WAITLIST_ID : process.env.NEXT_PUBLIC_MAILCHIMP_NEWSLETTER_ID;
 
       const data = {
         email_address: email,

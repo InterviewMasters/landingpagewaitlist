@@ -31,7 +31,7 @@ const testimonials = [
   {
     name: 'Jacob Smith',
     occupation: 'Student',
-    comment: 'really looking forward to practicing, I really need the extra help.',
+    comment: 'Really looking forward to practicing, I really need the extra help.',
     image: '/avatar.jpg'
   }
 ]
